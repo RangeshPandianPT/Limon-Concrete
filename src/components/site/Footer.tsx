@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Instagram, Linkedin, MapPin, Phone, Mail } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 export function Footer() {
   return (
@@ -8,15 +9,11 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-2">
-              <div className="grid h-10 w-10 place-items-center rounded-md bg-primary text-primary-foreground font-display text-lg font-bold">
-                L
-              </div>
-              <div className="leading-tight">
-                <div className="font-display text-lg font-semibold">Limon</div>
-                <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-                  Concrete
-                </div>
-              </div>
+              <img 
+                src={logo} 
+                alt="Lime & Conkrete Logo" 
+                className="h-16 w-auto object-contain mix-blend-multiply" 
+              />
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
               Premium Interior Solutions specializing in wallpaper installation, wall cladding, false ceilings, and customized interior execution for residential and commercial spaces.
@@ -82,8 +79,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-primary" />
-                <a href="mailto:info@limonconcrete.com" className="hover:text-primary">
-                  info@limonconcrete.com
+                <a href="mailto:info@limeandconkrete.com" className="hover:text-primary">
+                  info@limeandconkrete.com
                 </a>
               </li>
             </ul>
@@ -91,7 +88,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
-          <p>© 2026 Limon Concrete. All Rights Reserved.</p>
+          <p>Â© 2026 Lime & Conkrete. All Rights Reserved.</p>
           <p>Premium Interior Solutions.</p>
         </div>
       </div>

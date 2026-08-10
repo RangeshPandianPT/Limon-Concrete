@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
@@ -32,17 +33,11 @@ export function Header() {
     >
       <div className="container-px mx-auto flex max-w-7xl items-center justify-between py-4">
         <Link to="/" className="flex items-center gap-2">
-          <div className="grid h-10 w-10 place-items-center rounded-md bg-primary text-primary-foreground font-display text-lg font-bold">
-            L
-          </div>
-          <div className="leading-tight">
-            <div className="font-display text-lg font-semibold text-charcoal">
-              Limon
-            </div>
-            <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-              Concrete
-            </div>
-          </div>
+          <img 
+            src={logo} 
+            alt="Lime & Conkrete Logo" 
+            className="h-16 w-auto object-contain mix-blend-multiply" 
+          />
         </Link>
 
         <nav className="hidden items-center gap-7 lg:flex">
