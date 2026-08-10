@@ -6,9 +6,9 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Limon Concrete" },
+      { title: "Contact â€” Lime & Conkrete" },
       { name: "description", content: "Get a free consultation. Call +91 96006 00909 or send us a project inquiry." },
-      { property: "og:title", content: "Contact — Limon Concrete" },
+      { property: "og:title", content: "Contact â€” Lime & Conkrete" },
       { property: "og:description", content: "Reach our team for quotes and consultations." },
       { property: "og:url", content: "/contact" },
     ],
@@ -45,20 +45,20 @@ function ContactPage() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-primary" />
-                <a href="mailto:info@limonconcrete.com" className="text-charcoal/80 hover:text-primary">
-                  info@limonconcrete.com
+                <a href="mailto:info@limeandconkrete.com" className="text-charcoal/80 hover:text-primary">
+                  info@limeandconkrete.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Clock size={18} className="text-primary" />
-                <span className="text-charcoal/80">Mon – Sat · 9:00 am – 7:00 pm</span>
+                <span className="text-charcoal/80">Mon â€“ Sat Â· 9:00 am â€“ 7:00 pm</span>
               </li>
             </ul>
           </div>
 
           <div className="overflow-hidden rounded-2xl border border-border">
             <iframe
-              title="Limon Concrete location"
+              title="Lime & Conkrete location"
               src="https://www.google.com/maps?q=Edamal+Street+Theni+Tamil+Nadu+625531&output=embed"
               width="100%"
               height="280"

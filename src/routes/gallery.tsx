@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+﻿import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import { CtaBand } from "@/components/site/CtaBand";
@@ -26,9 +26,9 @@ const images = [
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — Limon Concrete" },
+      { title: "Gallery â€” Lime & Conkrete" },
       { name: "description", content: "Photos of construction projects, interior designs, renovations, and completed homes." },
-      { property: "og:title", content: "Gallery — Limon Concrete" },
+      { property: "og:title", content: "Gallery â€” Lime & Conkrete" },
       { property: "og:description", content: "Visual showcase of our work." },
       { property: "og:url", content: "/gallery" },
     ],
@@ -46,7 +46,7 @@ function GalleryPage() {
         <SectionHeading
           eyebrow="Gallery"
           title="Moments from our craft"
-          subtitle="Construction sites, interiors, and completed homes — captured along the way."
+          subtitle="Construction sites, interiors, and completed homes â€” captured along the way."
         />
         <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 [&>*]:mb-4">
           {images.map((img, i) => (

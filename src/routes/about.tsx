@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+﻿import { createFileRoute, Link } from "@tanstack/react-router";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import aboutImg from "@/assets/about.jpg";
 import { CheckCircle2, Target, Eye, Heart } from "lucide-react";
@@ -8,9 +8,9 @@ import { CtaBand } from "@/components/site/CtaBand";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us — Limon Concrete" },
-      { name: "description", content: "Learn about Limon Concrete — a Theni-based team building landmark homes, interiors, and commercial spaces with quality and trust." },
-      { property: "og:title", content: "About — Limon Concrete" },
+      { title: "About Us â€” Lime & Conkrete" },
+      { name: "description", content: "Learn about Lime & Conkrete â€” a Theni-based team building landmark homes, interiors, and commercial spaces with quality and trust." },
+      { property: "og:title", content: "About â€” Lime & Conkrete" },
       { property: "og:description", content: "Our story, mission, and values." },
       { property: "og:url", content: "/about" },
     ],
@@ -26,12 +26,12 @@ function AboutPage() {
         <SectionHeading
           eyebrow="About Us"
           title="A decade of building landmark structures."
-          subtitle="Limon Concrete was founded with a simple promise — to build homes and spaces that stand the test of time, delivered with honesty and craft."
+          subtitle="Lime & Conkrete was founded with a simple promise â€” to build homes and spaces that stand the test of time, delivered with honesty and craft."
         />
         <div className="mt-12 grid items-center gap-12 lg:grid-cols-2">
           <img
             src={aboutImg}
-            alt="Limon Concrete team"
+            alt="Lime & Conkrete team"
             loading="lazy"
             className="rounded-2xl object-cover shadow-elegant"
           />
@@ -41,7 +41,7 @@ function AboutPage() {
               From a small office in Theni, we've grown into a trusted construction
               and design partner across Tamil Nadu. Our work spans premium villas,
               residential homes, commercial spaces, interiors, and real estate
-              development — each delivered with the same standard of care.
+              development â€” each delivered with the same standard of care.
             </p>
             <ul className="mt-6 grid gap-3 sm:grid-cols-2">
               {[

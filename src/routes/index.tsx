@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+﻿import { createFileRoute } from "@tanstack/react-router";
 import { Hero } from "@/components/site/Hero";
 import { StatsStrip } from "@/components/site/StatsStrip";
 import { SectionHeading } from "@/components/site/SectionHeading";
@@ -17,13 +17,13 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Limon Concrete | Premium Interior Solutions" },
+      { title: "Lime & Conkrete | Premium Interior Solutions" },
       {
         name: "description",
         content:
-          "Limon Concrete provides premium wallpaper installation, wall cladding, false ceilings, and customized interior solutions for residential and commercial spaces.",
+          "Lime & Conkrete provides premium wallpaper installation, wall cladding, false ceilings, and customized interior solutions for residential and commercial spaces.",
       },
-      { property: "og:title", content: "Limon Concrete" },
+      { property: "og:title", content: "Lime & Conkrete" },
       { property: "og:description", content: "Transforming Spaces with Premium Interior Solutions" },
       { property: "og:url", content: "/" },
     ],
@@ -59,8 +59,8 @@ function Index() {
             <SectionHeading
               align="left"
               eyebrow="About Us"
-              title="About Limon Concrete"
-              subtitle="Limon Concrete is a trusted interior solutions company committed to delivering premium-quality interior finishing services for homes, offices, retail spaces, hotels, and commercial properties. Our expertise includes wallpaper installation, decorative wall cladding, false ceilings, and customized interior works. We focus on combining aesthetics, durability, and functionality while ensuring timely project completion and complete customer satisfaction."
+              title="About Lime & Conkrete"
+              subtitle="Lime & Conkrete is a trusted interior solutions company committed to delivering premium-quality interior finishing services for homes, offices, retail spaces, hotels, and commercial properties. Our expertise includes wallpaper installation, decorative wall cladding, false ceilings, and customized interior works. We focus on combining aesthetics, durability, and functionality while ensuring timely project completion and complete customer satisfaction."
             />
             <ul className="mt-2 grid gap-3 sm:grid-cols-2">
               {[
@@ -101,7 +101,7 @@ function Index() {
           <SectionHeading
             eyebrow="Why Choose Us"
             title="The difference is in the details."
-            subtitle="Promises that guide every Limon Concrete project."
+            subtitle="Promises that guide every Lime & Conkrete project."
           />
           <WhyChooseUs />
         </div>

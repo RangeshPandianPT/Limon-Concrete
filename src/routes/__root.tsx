@@ -10,6 +10,7 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+import logoUrl from "@/assets/logo.jpg";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingActions } from "@/components/site/FloatingActions";
@@ -77,18 +78,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Limon Concrete — Building Dreams with Quality, Trust & Excellence" },
+      { title: "Lime & Conkrete â€” Building Dreams with Quality, Trust & Excellence" },
       {
         name: "description",
         content:
           "Premium construction, interior design, renovation, and real estate solutions in Theni, Tamil Nadu. Trusted by 500+ clients.",
       },
-      { name: "author", content: "Limon Concrete" },
-      { property: "og:site_name", content: "Limon Concrete" },
+      { name: "author", content: "Lime & Conkrete" },
+      { property: "og:site_name", content: "Lime & Conkrete" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "icon", type: "image/jpeg", href: logoUrl },
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
@@ -103,7 +105,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "GeneralContractor",
-          name: "Limon Concrete",
+          name: "Lime & Conkrete",
           description:
             "Construction, interior design, renovation, and real estate development in Theni, Tamil Nadu.",
           telephone: "+91-96006-00909",

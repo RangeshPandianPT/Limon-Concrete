@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+﻿import { createFileRoute } from "@tanstack/react-router";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import { Testimonials, testimonials } from "@/components/site/Testimonials";
 import { Star, Quote } from "lucide-react";
@@ -7,9 +7,9 @@ import { CtaBand } from "@/components/site/CtaBand";
 export const Route = createFileRoute("/testimonials")({
   head: () => ({
     meta: [
-      { title: "Testimonials — Limon Concrete" },
-      { name: "description", content: "Read what our clients across Tamil Nadu say about working with Limon Concrete." },
-      { property: "og:title", content: "Testimonials — Limon Concrete" },
+      { title: "Testimonials â€” Lime & Conkrete" },
+      { name: "description", content: "Read what our clients across Tamil Nadu say about working with Lime & Conkrete." },
+      { property: "og:title", content: "Testimonials â€” Lime & Conkrete" },
       { property: "og:description", content: "Client stories and reviews." },
       { property: "og:url", content: "/testimonials" },
     ],

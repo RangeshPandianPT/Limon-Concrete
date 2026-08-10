@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+﻿import { createFileRoute } from "@tanstack/react-router";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import { ServiceGrid } from "@/components/site/ServiceGrid";
 import { CtaBand } from "@/components/site/CtaBand";
@@ -7,9 +7,9 @@ import { ProcessTimeline } from "@/components/site/ProcessTimeline";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Limon Concrete" },
+      { title: "Services â€” Lime & Conkrete" },
       { name: "description", content: "Residential & commercial construction, interiors, renovation, tile work, architecture, and real estate development." },
-      { property: "og:title", content: "Services — Limon Concrete" },
+      { property: "og:title", content: "Services â€” Lime & Conkrete" },
       { property: "og:description", content: "Comprehensive construction & design services." },
       { property: "og:url", content: "/services" },
     ],
@@ -25,7 +25,7 @@ function ServicesPage() {
         <SectionHeading
           eyebrow="Our Services"
           title="Everything you need, under one roof."
-          subtitle="From foundation to final finish — our team manages each stage so your project is delivered to standard, on time."
+          subtitle="From foundation to final finish â€” our team manages each stage so your project is delivered to standard, on time."
         />
         <ServiceGrid />
       </section>

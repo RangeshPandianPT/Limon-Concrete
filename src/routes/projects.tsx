@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+﻿import { createFileRoute } from "@tanstack/react-router";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import { ProjectsGrid } from "@/components/site/ProjectsGrid";
 import { CtaBand } from "@/components/site/CtaBand";
@@ -6,9 +6,9 @@ import { CtaBand } from "@/components/site/CtaBand";
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Projects — Limon Concrete" },
+      { title: "Projects â€” Lime & Conkrete" },
       { name: "description", content: "Villas, residential homes, commercial buildings, and interior projects delivered across Tamil Nadu." },
-      { property: "og:title", content: "Projects — Limon Concrete" },
+      { property: "og:title", content: "Projects â€” Lime & Conkrete" },
       { property: "og:description", content: "Browse our portfolio of landmark projects." },
       { property: "og:url", content: "/projects" },
     ],
