@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+﻿import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
 
@@ -13,7 +13,7 @@ export function CtaBand() {
               Let's Transform Your Space
             </h2>
             <p className="mt-4 max-w-xl text-white/70">
-              Whether you're planning a home renovation, office makeover, or commercial interior project, Limon Concrete is ready to deliver elegant and premium interior solutions. Contact us today to schedule your free consultation and site visit.
+              Whether you're planning a home renovation, office makeover, or commercial interior project, Lime & Conkrete is ready to deliver elegant and premium interior solutions. Contact us today to schedule your free consultation and site visit.
             </p>
           </div>
           <div className="flex flex-wrap gap-3 md:justify-end">

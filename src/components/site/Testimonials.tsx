@@ -1,4 +1,4 @@
-import { Star, Quote } from "lucide-react";
+﻿import { Star, Quote } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -11,17 +11,17 @@ export const testimonials = [
   {
     name: "Rajesh S.",
     project: "Living Room Wallpaper",
-    text: "Limon Concrete transformed our living room beautifully. The wallpaper installation was perfect, and the team was extremely professional.",
+    text: "Lime & Conkrete transformed our living room beautifully. The wallpaper installation was perfect, and the team was extremely professional.",
   },
   {
     name: "Karthik P.",
     project: "Wooden Wall Cladding",
-    text: "We chose Limon Concrete for wooden wall cladding, and the quality exceeded our expectations. Excellent workmanship and timely delivery.",
+    text: "We chose Lime & Conkrete for wooden wall cladding, and the quality exceeded our expectations. Excellent workmanship and timely delivery.",
   },
   {
     name: "Sunil M.",
     project: "Office Interior",
-    text: "Our office interiors now have a modern premium look thanks to Limon Concrete. Highly recommended for interior solutions.",
+    text: "Our office interiors now have a modern premium look thanks to Lime & Conkrete. Highly recommended for interior solutions.",
   },
 ];
 

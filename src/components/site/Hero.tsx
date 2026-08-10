@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+﻿import { Link } from "@tanstack/react-router";
 import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImg from "@/assets/hero.jpg";
@@ -9,7 +9,7 @@ export function Hero() {
       <div className="absolute inset-0 -z-10">
         <img
           src={heroImg}
-          alt="Modern luxury interior by Limon Concrete"
+          alt="Modern luxury interior by Lime & Conkrete"
           className="h-full w-full object-cover"
           width={1920}
           height={1280}
