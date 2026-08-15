@@ -1,13 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import { ContactForm } from "@/components/site/ContactForm";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Truck } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact â€” Lime & Conkrete" },
-      { name: "description", content: "Get a free consultation. Call +91 96006 00909 or send us a project inquiry." },
+      { name: "description", content: "Get a free consultation. Call +91 7795055517 or send us a project inquiry." },
       { property: "og:title", content: "Contact â€” Lime & Conkrete" },
       { property: "og:description", content: "Reach our team for quotes and consultations." },
       { property: "og:url", content: "/contact" },
@@ -34,19 +34,25 @@ function ContactPage() {
               <li className="flex gap-3">
                 <MapPin size={18} className="mt-0.5 shrink-0 text-primary" />
                 <span className="text-charcoal/80">
-                  173A Ground Floor, Sri Krishna Towers, Edamal Street, Theni, Tamil Nadu 625531
+                  Bangalore Karnataka
+                </span>
+              </li>
+              <li className="flex gap-3">
+                <Truck size={18} className="mt-0.5 shrink-0 text-primary" />
+                <span className="text-charcoal/80">
+                  Material supply: All over India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-primary" />
-                <a href="tel:+919600600909" className="text-charcoal/80 hover:text-primary">
-                  +91 96006 00909
+                <a href="tel:+917795055517" className="text-charcoal/80 hover:text-primary">
+                  +91 7795055517
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-primary" />
-                <a href="mailto:info@limeandconkrete.com" className="text-charcoal/80 hover:text-primary">
-                  info@limeandconkrete.com
+                <a href="mailto:limeandconkrete@gmail.com" className="text-charcoal/80 hover:text-primary">
+                  limeandconkrete@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -59,7 +65,7 @@ function ContactPage() {
           <div className="overflow-hidden rounded-2xl border border-border">
             <iframe
               title="Lime & Conkrete location"
-              src="https://www.google.com/maps?q=Edamal+Street+Theni+Tamil+Nadu+625531&output=embed"
+              src="https://www.google.com/maps?q=Bangalore+Karnataka&output=embed"
               width="100%"
               height="280"
               loading="lazy"
