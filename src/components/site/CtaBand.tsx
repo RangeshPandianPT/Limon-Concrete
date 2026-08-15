@@ -1,4 +1,4 @@
-﻿import { Link } from "@tanstack/react-router";
+import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
 
@@ -23,7 +23,7 @@ export function CtaBand() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="rounded-full border-white/30 bg-transparent text-white hover:bg-white hover:text-charcoal">
-              <a href="tel:+919600600909">
+              <a href="tel:+917795055517">
                 <Phone size={14} className="mr-1" /> Call Now
               </a>
             </Button>
