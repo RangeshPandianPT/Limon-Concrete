@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Facebook, Instagram, Linkedin, MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Instagram, Linkedin, MapPin, Phone, Mail, Truck } from "lucide-react";
 import logo from "@/assets/logo.jpg";
 
 export function Footer() {
@@ -68,19 +68,25 @@ export function Footer() {
               <li className="flex gap-3">
                 <MapPin size={16} className="mt-0.5 shrink-0 text-primary" />
                 <span>
-                  173A Ground Floor, Sri Krishna Towers, Edamal Street, Theni, Tamil Nadu 625531
+                  Bangalore Karnataka
+                </span>
+              </li>
+              <li className="flex gap-3">
+                <Truck size={16} className="mt-0.5 shrink-0 text-primary" />
+                <span>
+                  Material supply: All over India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-primary" />
-                <a href="tel:+919600600909" className="hover:text-primary">
-                  +91 96006 00909
+                <a href="tel:+917795055517" className="hover:text-primary">
+                  +91 7795055517
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-primary" />
-                <a href="mailto:info@limeandconkrete.com" className="hover:text-primary">
-                  info@limeandconkrete.com
+                <a href="mailto:limeandconkrete@gmail.com" className="hover:text-primary">
+                  limeandconkrete@gmail.com
                 </a>
               </li>
             </ul>
