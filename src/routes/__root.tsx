@@ -82,7 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Premium construction, interior design, renovation, and real estate solutions in Theni, Tamil Nadu. Trusted by 500+ clients.",
+          "Premium construction, interior design, renovation, and real estate solutions in Bangalore, Karnataka. Material supply all over India. Trusted by 500+ clients.",
       },
       { name: "author", content: "Lime & Conkrete" },
       { property: "og:site_name", content: "Lime & Conkrete" },
@@ -107,14 +107,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "GeneralContractor",
           name: "Lime & Conkrete",
           description:
-            "Construction, interior design, renovation, and real estate development in Theni, Tamil Nadu.",
-          telephone: "+91-96006-00909",
+            "Construction, interior design, renovation, and real estate development in Bangalore, Karnataka. Material supply all over India.",
+          telephone: "+91-7795055517",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "173A Ground Floor, Sri Krishna Towers, Edamal Street",
-            addressLocality: "Theni",
-            addressRegion: "Tamil Nadu",
-            postalCode: "625531",
+            streetAddress: "Bangalore",
+            addressLocality: "Bangalore",
+            addressRegion: "Karnataka",
+            postalCode: "",
             addressCountry: "IN",
           },
         }),
