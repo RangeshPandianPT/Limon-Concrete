@@ -93,9 +93,20 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
-          <p>Â© 2026 Lime & Conkrete. All Rights Reserved.</p>
-          <p>Premium Interior Solutions.</p>
+        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 text-sm text-muted-foreground md:flex-row">
+          <p>
+            &copy; {new Date().getFullYear()} Lime & Conkrete. All Rights Reserved.
+          </p>
+          <div className="flex items-center gap-4 md:gap-6">
+            <span>Delivering Premium Interior Solutions Across India.</span>
+            <span className="hidden md:inline">|</span>
+            <a href="#" className="transition-colors hover:text-primary">
+              Privacy Policy
+            </a>
+            <a href="#" className="transition-colors hover:text-primary">
+              Terms of Service
+            </a>
+          </div>
         </div>
       </div>
     </footer>
