@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import { ContactForm } from "@/components/site/ContactForm";
-import { MapPin, Phone, Mail, Clock, Truck } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Truck, Instagram } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -58,6 +58,17 @@ function ContactPage() {
               <li className="flex items-center gap-3">
                 <Clock size={18} className="text-primary" />
                 <span className="text-charcoal/80">Mon â€“ Sat Â· 9:00 am â€“ 7:00 pm</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Instagram size={18} className="text-primary" />
+                <a 
+                  href="https://www.instagram.com/limeandconkrete?utm_source=qr&igsh=MTd2bGwzam8wYno1Ng%3D%3D" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  className="text-charcoal/80 hover:text-primary"
+                >
+                  Follow us on Instagram
+                </a>
               </li>
             </ul>
           </div>
