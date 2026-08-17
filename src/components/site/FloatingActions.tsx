@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Phone, MessageCircle, ArrowUp } from "lucide-react";
+import { Phone, MessageCircle, ArrowUp, Instagram } from "lucide-react";
 
 export function FloatingActions() {
   const [show, setShow] = useState(false);
@@ -38,6 +38,15 @@ export function FloatingActions() {
           className="grid h-12 w-12 place-items-center rounded-full bg-[#25D366] text-white shadow-elegant transition-transform hover:scale-105"
         >
           <MessageCircle size={18} />
+        </a>
+        <a
+          href="https://www.instagram.com/limeandconkrete?utm_source=qr&igsh=MTd2bGwzam8wYno1Ng%3D%3D"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Instagram profile"
+          className="grid h-12 w-12 place-items-center rounded-full bg-gradient-to-tr from-[#f09433] via-[#e6683c] to-[#bc1888] text-white shadow-elegant transition-transform hover:scale-105"
+        >
+          <Instagram size={18} />
         </a>
       </div>
     </div>
