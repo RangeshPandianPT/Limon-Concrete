@@ -19,12 +19,18 @@ export function Footer() {
               Premium Interior Solutions specializing in wallpaper installation, wall cladding, false ceilings, and customized interior execution for residential and commercial spaces.
             </p>
             <div className="mt-5 flex gap-3">
-              {[Facebook, Instagram, Linkedin].map((Icon, i) => (
+              {[
+                { Icon: Facebook, href: "#", label: "Facebook" },
+                { Icon: Instagram, href: "https://www.instagram.com/limeandconkrete?utm_source=qr&igsh=MTd2bGwzam8wYno1Ng%3D%3D", label: "Instagram" },
+                { Icon: Linkedin, href: "#", label: "LinkedIn" }
+              ].map(({ Icon, href, label }, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href={href}
+                  target={href.startsWith("http") ? "_blank" : undefined}
+                  rel={href.startsWith("http") ? "noreferrer" : undefined}
                   className="grid h-9 w-9 place-items-center rounded-full border border-border bg-background text-charcoal/70 transition-colors hover:bg-primary hover:text-primary-foreground"
-                  aria-label="Social link"
+                  aria-label={label}
                 >
                   <Icon size={16} />
                 </a>
